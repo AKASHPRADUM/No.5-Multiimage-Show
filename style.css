@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.img1 {
+    background-image: url(bg1.jpg);
+    height: 100vh;
+    
+}
+.img2 {
+    background-image: url(bg2.jpg);
+    height: 500px;
+    
+}
+.img3 {
+    background-image: url(bg3.jpg);
+    height: 500px;
+    
+}
+
+.img1, .img2, .img3{
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.span{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.border{
+    background-color: black;
+    color: white;
+    padding: 21px 21px;
+}
+.textarea{
+    padding: 45px 85px
+}
+.textarea h2{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 31px;
+}
+p{
+    text-align: center;
+}
+.span1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border1{
+    background-color: #1b1b1b;
+    color: white;
+}
+.bold {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
